@@ -70,7 +70,7 @@ Accept direct, non-custodial **USDT (TRC-20 and ERC-20)** cryptocurrency payment
 To receive automated notifications when payments are confirmed on-chain:
 
 1. Copy the **Store Webhook URL** displayed at the bottom of the PayCow settings screen in WooCommerce. The URL will look like:
-   `https://yourstore.com/?wc-api=paycow_webhook`
+   `https://example.com/?wc-api=paycow_webhook`
 2. Log into your **PayCow Merchant Dashboard** ([https://paycow.net/dashboard](https://paycow.net/dashboard)).
 3. Navigate to **Developer &rarr; Webhooks**.
 4. Paste the URL into the **Webhook URL** field and save.
