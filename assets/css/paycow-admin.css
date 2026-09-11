@@ -1,0 +1,83 @@
+/**
+ * PayCow WooCommerce Gateway - Admin Settings Styles
+ */
+
+.paycow-admin-header {
+    background: #0f172a;
+    color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paycow-admin-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 0 0 6px 0;
+    color: #ffffff;
+}
+
+.paycow-admin-desc {
+    font-size: 0.92rem;
+    color: #94a3b8;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.paycow-admin-tag {
+    background: #0284c7;
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 6px;
+    letter-spacing: 0.05em;
+}
+
+.paycow-webhook-box {
+    background: #f8fafc;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.paycow-webhook-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+
+.paycow-webhook-desc {
+    font-size: 0.82rem;
+    color: #64748b;
+    margin-bottom: 10px;
+}
+
+.paycow-copy-group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.paycow-copy-input {
+    font-family: monospace;
+    font-size: 0.88rem !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    border: 1px solid #cbd5e1 !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    flex: 1;
+}
+
+.paycow-copy-btn {
+    padding: 8px 16px !important;
+    font-weight: 600 !important;
+    cursor: pointer;
+}

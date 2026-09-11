@@ -1,0 +1,213 @@
+/**
+ * PayCow WooCommerce Gateway - Checkout Styles
+ */
+
+.paycow-payment-fields {
+    padding: 12px 0 6px;
+}
+
+.paycow-gateway-description {
+    font-size: 0.92rem;
+    color: #475569;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+.paycow-network-selector-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.paycow-network-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 480px) {
+    .paycow-network-options {
+        grid-template-columns: 1fr;
+    }
+}
+
+.paycow-network-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.paycow-network-card:hover {
+    border-color: #94a3b8;
+    background: #f8fafc;
+}
+
+.paycow-network-card.selected {
+    border-color: #0284c7;
+    background: #f0f9ff;
+    box-shadow: 0 0 0 1px #0284c7;
+}
+
+.paycow-network-card input[type="radio"] {
+    margin: 0;
+}
+
+.paycow-network-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.paycow-network-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.paycow-network-name {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #0f172a;
+}
+
+.paycow-network-sub {
+    font-size: 0.75rem;
+    color: #64748b;
+}
+
+.paycow-security-note {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.78rem;
+    color: #64748b;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-top: 8px;
+}
+
+.paycow-security-tag {
+    font-weight: 700;
+    color: #0f172a;
+    background: #e2e8f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+}
+
+/* Thank You Page Details Box */
+.paycow-order-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 24px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.paycow-order-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.paycow-order-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.paycow-status-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.paycow-status-paid {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.paycow-status-pending,
+.paycow-status-confirming,
+.paycow-status-detected {
+    background: #fef3c7;
+    color: #b45309;
+}
+
+.paycow-status-expired,
+.paycow-status-rejected {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.paycow-order-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.paycow-order-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.paycow-item-label {
+    font-size: 0.75rem;
+    color: #64748b;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.paycow-item-value {
+    font-size: 0.92rem;
+    color: #1e293b;
+    font-weight: 600;
+    word-break: break-all;
+}
+
+.paycow-live-poll {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid #f1f5f9;
+    font-size: 0.85rem;
+    color: #64748b;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.paycow-pulse-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #0284c7;
+    animation: paycow-pulse 1.5s infinite;
+}
+
+@keyframes paycow-pulse {
+    0% { transform: scale(0.95); opacity: 0.6; }
+    50% { transform: scale(1.3); opacity: 1; }
+    100% { transform: scale(0.95); opacity: 0.6; }
+}

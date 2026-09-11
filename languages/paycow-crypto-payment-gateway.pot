@@ -1,0 +1,55 @@
+# Copyright (C) 2026 PayCow
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PayCow Crypto Payment Gateway for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://paycow.net/support\n"
+"Last-Translator: PayCow Team <dev@paycow.net>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-11T09:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: paycow-crypto-gateway\n"
+
+#. Plugin Name of the plugin
+msgid "PayCow Crypto Payment Gateway for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Accept non-custodial USDT (TRC-20 & ERC-20) cryptocurrency payments with 0% gateway commission directly into your self-custody wallets."
+msgstr ""
+
+#: includes/class-wc-gateway-paycow.php
+msgid "PayCow Non-Custodial Crypto Gateway"
+msgstr ""
+
+#: includes/class-wc-gateway-paycow.php
+msgid "USDT Crypto Payment (PayCow)"
+msgstr ""
+
+#: includes/class-wc-gateway-paycow.php
+msgid "Pay securely with USDT (TRC-20 / ERC-20) directly to merchant wallet with 0% gateway fee."
+msgstr ""
+
+#: includes/class-wc-gateway-paycow.php
+msgid "Select Settlement Network:"
+msgstr ""
+
+#: includes/class-wc-gateway-paycow.php
+msgid "TRON (TRC-20)"
+msgstr ""
+
+#: includes/class-wc-gateway-paycow.php
+msgid "Ethereum (ERC-20)"
+msgstr ""
+
+#: includes/class-wc-gateway-paycow.php
+msgid "Non-Custodial"
+msgstr ""
+
+#: includes/class-wc-gateway-paycow.php
+msgid "Payment settles directly into the merchant wallet. Zero custody risk."
+msgstr ""

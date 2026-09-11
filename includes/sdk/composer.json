@@ -1,0 +1,27 @@
+{
+    "name": "paycow/paycow-php-sdk",
+    "description": "Official PHP SDK for PayCow Non-Custodial USDT Payment Gateway",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PayCow Development Team",
+            "homepage": "https://paycow.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-hash": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PayCow\\": "src/"
+        },
+        "files": [
+            "autoload.php"
+        ]
+    }
+}
